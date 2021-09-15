@@ -8,21 +8,18 @@ function ejercicio(n){
     if (i>3){
         b=a.substr(-3)  
     } else {
-        if (i=1){
+        if (i==1){
             console.log(i)
             console.log(a)
             b='00'+a;
         }else{
-            if(i=2){
+            if(i==2){
                 console.log(i)
                 console.log(a)
                 b='0'+a;
-
             }
         }
     }
     return b;
-
 }
-
 console.log(ejercicio(2));
