@@ -1,3 +1,4 @@
+import math from "mathjs";
 function ejercicio(n){    
     const x=(3+(Math.sqrt(5)));
     y=x**n;
